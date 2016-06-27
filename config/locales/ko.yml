@@ -1,5 +1,23 @@
 ko:
   active_admin:
+    models:
+      user:
+        admin: "관리자"
+        supervisor: "팀장"
+        worker: "작업 팀원"
+        observer: "참관인"
+    attributes:
+      user:
+        user_id: "사용자 아이디"
+        id: "순번"
+        name: "이름"
+        email: "E-mail"
+        authorization: "권한"
+        is_verified: "승인여부"
+        created_at: "가입일"
+        sign_in_count: "로그인 횟수"
+        last_sign_in_at: "마지막 로그인 일시"
+        last_sign_in_ip: "마지막 로그인 IP"
     dashboard: "대시보드"
     dashboard_welcome:
       welcome: "ActiveAdmin에 오신 것을 환영합니다. 기본 대시보드 페이지 입니다."
@@ -13,7 +31,7 @@ ko:
     delete_model: "%{model} 삭제"
     details: "%{model} 상세보기"
     cancel: "취소"
-    empty: "내용이 없습니다"
+    empty: "N/A"
     previous: "이전"
     next: "다음"
     download: "다운로드:"
@@ -41,7 +59,7 @@ ko:
       "no": "없음"
     main_content: "내용을 보시려면 %{model}#main_content의 코드를 먼저 구현해 주시기 바랍니다."
     logout: "로그아웃"
-    powered_by: "Powered by %{active_admin} %{version}"
+    powered_by: ""
     sidebars:
       filters: "필터 목록"
       search_status: "검색 상태"
