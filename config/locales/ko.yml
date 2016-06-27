@@ -104,6 +104,8 @@ ko:
       errors:
         empty_text: "댓글이 저장되지 않았습니다. 내용을 입력해주세요."
     devise:
+      user_id:
+        title: "사용자 아이디"
       username:
         title: "아이디"
       email:
