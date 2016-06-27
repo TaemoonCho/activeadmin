@@ -1,23 +1,5 @@
 ko:
   active_admin:
-    models:
-      user:
-        admin: "관리자"
-        supervisor: "팀장"
-        worker: "작업 팀원"
-        observer: "참관인"
-    attributes:
-      user:
-        user_id: "사용자 아이디"
-        id: "순번"
-        name: "이름"
-        email: "E-mail"
-        authorization: "권한"
-        is_verified: "승인여부"
-        created_at: "가입일"
-        sign_in_count: "로그인 횟수"
-        last_sign_in_at: "마지막 로그인 일시"
-        last_sign_in_ip: "마지막 로그인 IP"
     dashboard: "대시보드"
     dashboard_welcome:
       welcome: "ActiveAdmin에 오신 것을 환영합니다. 기본 대시보드 페이지 입니다."
@@ -104,9 +86,13 @@ ko:
       errors:
         empty_text: "댓글이 저장되지 않았습니다. 내용을 입력해주세요."
     devise:
+      sessions:
+        user:
+          signed_in: "로그인 되었습니다."
       failure:
         user:
           unauthenticated: "올바르지 않은 아이디/패스트워드로 로그인에 실패 하였습니다."
+          not_found_in_database: "존재하지 않는 사용자 아이디 입니다."
       user_id:
         title: "사용자 아이디"
       username:
