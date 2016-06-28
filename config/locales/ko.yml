@@ -22,7 +22,7 @@ ko:
     has_many_remove: "삭제"
     filters:
       buttons:
-        filter: "필터"
+        filter: "필터 적용"
         clear: "필터 초기화"
       predicates:
         contains: "포함하는 문구"
@@ -85,6 +85,8 @@ ko:
       title_content: "댓글 (%{count})"
       errors:
         empty_text: "댓글이 저장되지 않았습니다. 내용을 입력해주세요."
+    access_denied:
+      message: "접근권한이 없습니다."
     devise:
       sessions:
         user:
