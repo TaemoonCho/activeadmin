@@ -1,4 +1,12 @@
 ko:
+  devise:
+    sessions:
+      user:
+        signed_in: "로그인 되었습니다."
+    failure:
+      user:
+        unauthenticated: "올바르지 않은 아이디/패스트워드로 로그인에 실패 하였습니다."
+        not_found_in_database: "존재하지 않는 사용자 아이디 입니다."
   active_admin:
     dashboard: "대시보드"
     dashboard_welcome:
@@ -87,14 +95,6 @@ ko:
         empty_text: "댓글이 저장되지 않았습니다. 내용을 입력해주세요."
     access_denied:
       message: "접근권한이 없습니다."
-    devise:
-      sessions:
-        user:
-          signed_in: "로그인 되었습니다."
-      failure:
-        user:
-          unauthenticated: "올바르지 않은 아이디/패스트워드로 로그인에 실패 하였습니다."
-          not_found_in_database: "존재하지 않는 사용자 아이디 입니다."
       user_id:
         title: "사용자 아이디"
       username:
